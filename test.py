@@ -25,22 +25,25 @@
 # else:
 #     print('tristan')
 
-def andrew(arg):
-    andrew_status = arg
+# def andrew(arg):
+#     andrew_status = arg
     
-    if(andrew_status < 10):
-        return 'stay hard'
-    else:
-        return 'billionaire'
+#     if(andrew_status < 10):
+#         return 'stay hard'
+#     else:
+#         return 'billionaire'
 
 # print(andrew(5))
 
-billionaire_list = ['andrew_tate', 'tristan_tate', 'elon_musk']
+# billionaire_list = ['andrew_tate', 'tristan_tate', 'elon_musk']
 # print(billionaire_list[0])
 
 # for index in range(15):
 #     print(andrew(index))
 
-for item in billionaire_list:
-    print(item)
+# for item in billionaire_list:
+    # print(item)
+    
+with open('./andrew.txt', 'r') as file:
+    print(file.read())
 
