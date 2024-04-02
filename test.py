@@ -44,6 +44,23 @@
 # for item in billionaire_list:
     # print(item)
     
-with open('./andrew.txt', 'r') as file:
-    print(file.read())
+# with open('./andrew.txt', 'r') as file:
+#     print(file.read())
+
+class Card:
+    def __init__(self, date, user_name):
+        self.date = date
+        self.user_name = user_name
+    def message(self):
+        return 'この投稿は' + self.user_name + 'さんが' + self.date + 'に投稿しました。'
+        
+date_a = '2020-01-01'
+user_name_a = 'taro'
+
+date_b = '2023-01-01'
+user_name_b = 'matsuo'
+
+card_b = Card(date_b, user_name_b)
+
+print(card_b.message())
 
