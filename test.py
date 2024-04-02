@@ -25,12 +25,15 @@
 # else:
 #     print('tristan')
 
-def andrew(arg):
-    andrew_status = arg
+# def andrew(arg):
+#     andrew_status = arg
     
-    if(andrew_status < 10):
-        return 'stay hard'
-    else:
-        return 'billionaire'
+#     if(andrew_status < 10):
+#         return 'stay hard'
+#     else:
+#         return 'billionaire'
 
-print(andrew(5))
+# print(andrew(5))
+
+billionaire_list = ['andrew_tate', 'tristan_tate', 'elon_musk']
+print(billionaire_list[0])
